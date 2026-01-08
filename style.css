@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+/* navbar design */
+
+#nav-section .nav-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 16px 0;
+    align-items: center;
+}
+
+.nav-info{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-info p{
+    margin: 0 24px;
+    font-weight: 500;
+    line-height: 24px;
+    color:#000000;
+}
+.nav-btn{
+    background-color: ;
+}
