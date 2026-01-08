@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -81,6 +82,10 @@
     border: none;
     color:#469165;
     font-weight: 500;
+    cursor: pointer;
+}
+.dot-btn:hover{
+    background-color: #f9555536;
 }
 .banner-title{
     display: flex;
@@ -92,6 +97,7 @@
 .banner-title h1{
     color: #FFFFFF;
     font-size: 60px;
+    text-align: center;
 }
 #btn-txt{
     color:#30B868;
@@ -107,6 +113,7 @@
     line-height: 1.6;
     margin-left: 70px;
     margin-bottom: 20px;
+    text-align: center;
 }
 .banner-vdobtn{
     padding: 13px;
@@ -120,4 +127,63 @@
 }
 .banner-vdobtn:hover{
     background-color:#30B868
+}
+
+/* card section design */
+#card-section {
+    padding-top: 50px;
+    margin-bottom: 50px;
+    
+    overflow: hidden;
+}
+
+#card-section .card-container{
+    width: 71%;
+    max-width:1300px ;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.card-container h1{
+    font-size: 38px;
+}
+.card-container p{
+    color: #627382;
+    font-size: 15px;
+}
+#card-section .card-container .card-list{
+    display: flex;
+    gap: 20px;
+    overflow: ;
+}
+#card-section .card-container .card-list .card{
+    padding: 5px;
+    width: 322px;
+    box-shadow:0 0 8px 0 #00000036;
+    border-radius: 3px;
+    margin-top: 44px;
+}
+.card img{
+    background-color: #F95555;
+    padding: 5px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    
+}
+.card h4{
+    line-height: 26px;
+    color: #001931;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.card p{
+    font-size: 13px;
+    color: #627382;
+    font-weight: 500;
+    text-align: center;
 }
