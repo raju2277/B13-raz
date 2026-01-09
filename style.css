@@ -223,3 +223,38 @@
     align-items: flex-start;
  }
 
+ /* bonus section design */
+
+#bonus-section{
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+
+}
+.bonus-container{
+    width: 100%;
+    max-width: 900px; 
+    text-align: center;
+    background-color: #F7F6F2;
+    margin: 0 auto;
+    border-radius:5px;
+}
+.bonus-item{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.bonus-container .bonus-item h1{
+    align-items: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    max-width: 800px;
+    
+}
+.bonus-item p{
+    line-height: 1.5;
+    margin-bottom:20px;
+    margin-top: 10PX;
+    color: #627382;
+    font-size: 16px;
+}
