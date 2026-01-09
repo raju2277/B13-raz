@@ -9,13 +9,17 @@
     "wdth" 100;
 }
 /* navbar design */
+#nav-section{
+    width: 1300px;
+}
 
 #nav-section .nav-container{
     display: flex;
     justify-content: space-around;
-    margin: 16px 0;
+    margin: 10px 0;
     align-items: center;
-    max-width: 1600px;
+    /* width: 100vw; */
+    width: 1100;
 }
 
 .nav-info{
@@ -47,7 +51,7 @@
 
 /* banner section design */
 #banner-section{
-    max-width: 1600px;
+    width: 1300px;
     height: 674px;
     display: flex;
     align-items: center;
@@ -56,7 +60,7 @@
     background-size: cover;
 }
 .banner-container{
-    max-width: 1360px;
+    width: 1100px;
     height: 379px;
     margin: 115.5px 263.5px 120px 120px;
 }
@@ -133,13 +137,13 @@
 #card-section {
     padding-top: 50px;
     margin-bottom: 50px;
-    
+    width: 1300px;
     overflow: hidden;
 }
 
 #card-section .card-container{
-    width: 71%;
-    max-width:1300px ;
+    width: 1100px;
+    max-width:100% ;
     margin: 0 auto;
     text-align: center;
     
@@ -189,10 +193,10 @@
 }
  /* info section design */
 #info-section{
-    width: 1200px;
+    width: 1300px;
 }
  #info-section .info-container{
-    width: 1000px;
+    width: 1100px;
     height: 600px;
     display: flex;
     justify-content:space-evenly;
@@ -229,11 +233,13 @@
     padding: 60px 20px;
     display: flex;
     justify-content: center;
+    width: 1300px;
+    margin-left: 0;
 
 }
 .bonus-container{
     width: 100%;
-    max-width: 900px; 
+    max-width: 1000px; 
     text-align: center;
     background-color: #F7F6F2;
     margin: 0 auto;
@@ -246,7 +252,7 @@
 
 .bonus-container .bonus-item h1{
     align-items: center;
-    font-size: 40px;
+    font-size: 34px;
     margin-bottom: 20px;
     max-width: 800px;
     
@@ -257,4 +263,51 @@
     margin-top: 10PX;
     color: #627382;
     font-size: 16px;
+}
+
+/* footer section design */
+.footer{
+    width: 1300px;
+    height: 300px;
+    background-color: #001931;
+    color: white;
+    padding: 20px 20px 20px;
+    align-items: center;
+    margin: auto 0;
+}
+.footer-container{
+    width: 1000px;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+
+}
+.social-links p{
+    margin-bottom: 10px;
+}
+.social-icons a{
+    background-color: #FFFFFF;
+    padding: 3px 6px;
+    border-radius: 50%;
+    margin-right: 10px;
+    
+}
+.footer-bottom{
+    width: 1000px;
+    align-items: center;
+    margin: auto;
+}
+.footer-bottom p{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    color: #FAFAFA;
+}
+.footer-bottom hr{
+    border: 0;
+    border-top: 1px solid #1a3a5a;
+    margin-bottom: 20px;
 }
