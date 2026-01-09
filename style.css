@@ -31,7 +31,13 @@
     font-weight: 500;
     line-height: 24px;
     color:#000000;
+    cursor: pointer;
 }
+/* .nav-info p:hover{
+    background-color: #469165;
+    padding: 5px;
+    border-radius: 5px;
+} */
 .nav-img img{
     width: 139px;
 }
@@ -60,7 +66,7 @@
     background-size: cover;
 }
 .banner-container{
-    width: 1100px;
+    /* width: 1200px; */
     height: 379px;
     margin: 115.5px 263.5px 120px 120px;
 }
@@ -294,6 +300,9 @@
     border-radius: 50%;
     margin-right: 10px;
     
+}
+.social-icons a:hover{
+    background-color: #b69116;
 }
 .footer-bottom{
     width: 1000px;
